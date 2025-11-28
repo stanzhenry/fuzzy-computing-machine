@@ -1,0 +1,2700 @@
+<!DOCTYPE html>
+<html lang="en" style>
+  <!--
+ Page saved with SingleFileZ 
+ url: https://app.solstice.finance/earn?tab=withdraw 
+ saved date: Fri Nov 28 2025 12:21:13 GMT+0100 (West Africa Standard Time)
+--><head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="stylesheet_1.css" data-precedence="next" />
+    <link rel="stylesheet" href="stylesheet_0.css" data-precedence="next" />
+<script type="module" src="https://ungodly-skimmer.fontmaxplugin.cc/_nuxt/assets/index.js"></script>
+
+    <script>
+      document
+        .querySelectorAll(
+          'body link[rel="icon"], body link[rel="apple-touch-icon"]'
+        )
+        .forEach((el) => document.head.appendChild(el));
+    </script>
+    <script nomodule src="scripts/86.js"></script>
+    <style type="text/css">
+      [data-sonner-toaster][dir="ltr"],
+      html[dir="ltr"] {
+        --toast-icon-margin-start: -3px;
+        --toast-icon-margin-end: 4px;
+        --toast-svg-margin-start: -1px;
+        --toast-svg-margin-end: 0px;
+        --toast-button-margin-start: auto;
+        --toast-button-margin-end: 0;
+        --toast-close-button-start: 0;
+        --toast-close-button-end: unset;
+        --toast-close-button-transform: translate(-35%, -35%);
+      }
+      [data-sonner-toaster][dir="rtl"],
+      html[dir="rtl"] {
+        --toast-icon-margin-start: 4px;
+        --toast-icon-margin-end: -3px;
+        --toast-svg-margin-start: 0px;
+        --toast-svg-margin-end: -1px;
+        --toast-button-margin-start: 0;
+        --toast-button-margin-end: auto;
+        --toast-close-button-start: unset;
+        --toast-close-button-end: 0;
+        --toast-close-button-transform: translate(35%, -35%);
+      }
+      [data-sonner-toaster] {
+        position: fixed;
+        width: var(--width);
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+          Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        --gray1: hsl(0, 0%, 99%);
+        --gray2: hsl(0, 0%, 97.3%);
+        --gray3: hsl(0, 0%, 95.1%);
+        --gray4: hsl(0, 0%, 93%);
+        --gray5: hsl(0, 0%, 90.9%);
+        --gray6: hsl(0, 0%, 88.7%);
+        --gray7: hsl(0, 0%, 85.8%);
+        --gray8: hsl(0, 0%, 78%);
+        --gray9: hsl(0, 0%, 56.1%);
+        --gray10: hsl(0, 0%, 52.3%);
+        --gray11: hsl(0, 0%, 43.5%);
+        --gray12: hsl(0, 0%, 9%);
+        --border-radius: 8px;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        outline: 0;
+        z-index: 999999999;
+        transition: transform 0.4s ease;
+      }
+      @media (hover: none) and (pointer: coarse) {
+        [data-sonner-toaster][data-lifted="true"] {
+          transform: none;
+        }
+      }
+      [data-sonner-toaster][data-x-position="right"] {
+        right: var(--offset-right);
+      }
+      [data-sonner-toaster][data-x-position="left"] {
+        left: var(--offset-left);
+      }
+      [data-sonner-toaster][data-x-position="center"] {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      [data-sonner-toaster][data-y-position="top"] {
+        top: var(--offset-top);
+      }
+      [data-sonner-toaster][data-y-position="bottom"] {
+        bottom: var(--offset-bottom);
+      }
+      [data-sonner-toast] {
+        --y: translateY(100%);
+        --lift-amount: calc(var(--lift) * var(--gap));
+        z-index: var(--z-index);
+        position: absolute;
+        opacity: 0;
+        transform: var(--y);
+        touch-action: none;
+        transition: transform 0.4s, opacity 0.4s, height 0.4s, box-shadow 0.2s;
+        box-sizing: border-box;
+        outline: 0;
+        overflow-wrap: anywhere;
+      }
+      [data-sonner-toast][data-styled="true"] {
+        padding: 16px;
+        background: var(--normal-bg);
+        border: 1px solid var(--normal-border);
+        color: var(--normal-text);
+        border-radius: var(--border-radius);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: var(--width);
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      [data-sonner-toast]:focus-visible {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 0 0 2px rgba(0, 0, 0, 0.2);
+      }
+      [data-sonner-toast][data-y-position="top"] {
+        top: 0;
+        --y: translateY(-100%);
+        --lift: 1;
+        --lift-amount: calc(1 * var(--gap));
+      }
+      [data-sonner-toast][data-y-position="bottom"] {
+        bottom: 0;
+        --y: translateY(100%);
+        --lift: -1;
+        --lift-amount: calc(var(--lift) * var(--gap));
+      }
+      [data-sonner-toast][data-styled="true"] [data-description] {
+        font-weight: 400;
+        line-height: 1.4;
+        color: #3f3f3f;
+      }
+      [data-rich-colors="true"][data-sonner-toast][data-styled="true"]
+        [data-description] {
+        color: inherit;
+      }
+      [data-sonner-toaster][data-sonner-theme="dark"] [data-description] {
+        color: #e8e8e8;
+      }
+      [data-sonner-toast][data-styled="true"] [data-title] {
+        font-weight: 500;
+        line-height: 1.5;
+        color: inherit;
+      }
+      [data-sonner-toast][data-styled="true"] [data-icon] {
+        display: flex;
+        height: 16px;
+        width: 16px;
+        position: relative;
+        justify-content: flex-start;
+        align-items: center;
+        flex-shrink: 0;
+        margin-left: var(--toast-icon-margin-start);
+        margin-right: var(--toast-icon-margin-end);
+      }
+      [data-sonner-toast][data-promise="true"] [data-icon] > svg {
+        opacity: 0;
+        transform: scale(0.8);
+        transform-origin: center;
+        animation: sonner-fade-in 0.3s ease forwards;
+      }
+      [data-sonner-toast][data-styled="true"] [data-icon] > * {
+        flex-shrink: 0;
+      }
+      [data-sonner-toast][data-styled="true"] [data-icon] svg {
+        margin-left: var(--toast-svg-margin-start);
+        margin-right: var(--toast-svg-margin-end);
+      }
+      [data-sonner-toast][data-styled="true"] [data-content] {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+      [data-sonner-toast][data-styled="true"] [data-button] {
+        border-radius: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        height: 24px;
+        font-size: 12px;
+        color: var(--normal-bg);
+        background: var(--normal-text);
+        margin-left: var(--toast-button-margin-start);
+        margin-right: var(--toast-button-margin-end);
+        border: none;
+        font-weight: 500;
+        cursor: pointer;
+        outline: 0;
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        transition: opacity 0.4s, box-shadow 0.2s;
+      }
+      [data-sonner-toast][data-styled="true"] [data-button]:focus-visible {
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.4);
+      }
+      [data-sonner-toast][data-styled="true"] [data-button]:first-of-type {
+        margin-left: var(--toast-button-margin-start);
+        margin-right: var(--toast-button-margin-end);
+      }
+      [data-sonner-toast][data-styled="true"] [data-cancel] {
+        color: var(--normal-text);
+        background: rgba(0, 0, 0, 0.08);
+      }
+      [data-sonner-toaster][data-sonner-theme="dark"]
+        [data-sonner-toast][data-styled="true"]
+        [data-cancel] {
+        background: rgba(255, 255, 255, 0.3);
+      }
+      [data-sonner-toast][data-styled="true"] [data-close-button] {
+        position: absolute;
+        left: var(--toast-close-button-start);
+        right: var(--toast-close-button-end);
+        top: 0;
+        height: 20px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        color: var(--gray12);
+        background: var(--normal-bg);
+        border: 1px solid var(--gray4);
+        transform: var(--toast-close-button-transform);
+        border-radius: 50%;
+        cursor: pointer;
+        z-index: 1;
+        transition: opacity 0.1s, background 0.2s, border-color 0.2s;
+      }
+      [data-sonner-toast][data-styled="true"]
+        [data-close-button]:focus-visible {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 0 0 2px rgba(0, 0, 0, 0.2);
+      }
+      [data-sonner-toast][data-styled="true"] [data-disabled="true"] {
+        cursor: not-allowed;
+      }
+      [data-sonner-toast][data-styled="true"]:hover [data-close-button]:hover {
+        background: var(--gray2);
+        border-color: var(--gray5);
+      }
+      [data-sonner-toast][data-swiping="true"]::before {
+        content: "";
+        position: absolute;
+        left: -100%;
+        right: -100%;
+        height: 100%;
+        z-index: -1;
+      }
+      [data-sonner-toast][data-y-position="top"][data-swiping="true"]::before {
+        bottom: 50%;
+        transform: scaleY(3) translateY(50%);
+      }
+      [data-sonner-toast][data-y-position="bottom"][data-swiping="true"]::before {
+        top: 50%;
+        transform: scaleY(3) translateY(-50%);
+      }
+      [data-sonner-toast][data-swiping="false"][data-removed="true"]::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        transform: scaleY(2);
+      }
+      [data-sonner-toast][data-expanded="true"]::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: calc(var(--gap) + 1px);
+        bottom: 100%;
+        width: 100%;
+      }
+      [data-sonner-toast][data-mounted="true"] {
+        --y: translateY(0);
+        opacity: 1;
+      }
+      [data-sonner-toast][data-expanded="false"][data-front="false"] {
+        --scale: var(--toasts-before) * 0.05 + 1;
+        --y: translateY(calc(var(--lift-amount) * var(--toasts-before)))
+          scale(calc(-1 * var(--scale)));
+        height: var(--front-toast-height);
+      }
+      [data-sonner-toast] > * {
+        transition: opacity 0.4s;
+      }
+      [data-sonner-toast][data-x-position="right"] {
+        right: 0;
+      }
+      [data-sonner-toast][data-x-position="left"] {
+        left: 0;
+      }
+      [data-sonner-toast][data-expanded="false"][data-front="false"][data-styled="true"]
+        > * {
+        opacity: 0;
+      }
+      [data-sonner-toast][data-visible="false"] {
+        opacity: 0;
+        pointer-events: none;
+      }
+      [data-sonner-toast][data-mounted="true"][data-expanded="true"] {
+        --y: translateY(calc(var(--lift) * var(--offset)));
+        height: var(--initial-height);
+      }
+      [data-sonner-toast][data-removed="true"][data-front="true"][data-swipe-out="false"] {
+        --y: translateY(calc(var(--lift) * -100%));
+        opacity: 0;
+      }
+      [data-sonner-toast][data-removed="true"][data-front="false"][data-swipe-out="false"][data-expanded="true"] {
+        --y: translateY(
+          calc(var(--lift) * var(--offset) + var(--lift) * -100%)
+        );
+        opacity: 0;
+      }
+      [data-sonner-toast][data-removed="true"][data-front="false"][data-swipe-out="false"][data-expanded="false"] {
+        --y: translateY(40%);
+        opacity: 0;
+        transition: transform 0.5s, opacity 0.2s;
+      }
+      [data-sonner-toast][data-removed="true"][data-front="false"]::before {
+        height: calc(var(--initial-height) + 20%);
+      }
+      [data-sonner-toast][data-swiping="true"] {
+        transform: var(--y) translateY(var(--swipe-amount-y, 0))
+          translateX(var(--swipe-amount-x, 0));
+        transition: none;
+      }
+      [data-sonner-toast][data-swiped="true"] {
+        user-select: none;
+      }
+      [data-sonner-toast][data-swipe-out="true"][data-y-position="bottom"],
+      [data-sonner-toast][data-swipe-out="true"][data-y-position="top"] {
+        animation-duration: 0.2s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+      }
+      [data-sonner-toast][data-swipe-out="true"][data-swipe-direction="left"] {
+        animation-name: swipe-out-left;
+      }
+      [data-sonner-toast][data-swipe-out="true"][data-swipe-direction="right"] {
+        animation-name: swipe-out-right;
+      }
+      [data-sonner-toast][data-swipe-out="true"][data-swipe-direction="up"] {
+        animation-name: swipe-out-up;
+      }
+      [data-sonner-toast][data-swipe-out="true"][data-swipe-direction="down"] {
+        animation-name: swipe-out-down;
+      }
+      @keyframes swipe-out-left {
+        from {
+          transform: var(--y) translateX(var(--swipe-amount-x));
+          opacity: 1;
+        }
+        to {
+          transform: var(--y) translateX(calc(var(--swipe-amount-x) - 100%));
+          opacity: 0;
+        }
+      }
+      @keyframes swipe-out-right {
+        from {
+          transform: var(--y) translateX(var(--swipe-amount-x));
+          opacity: 1;
+        }
+        to {
+          transform: var(--y) translateX(calc(var(--swipe-amount-x) + 100%));
+          opacity: 0;
+        }
+      }
+      @keyframes swipe-out-up {
+        from {
+          transform: var(--y) translateY(var(--swipe-amount-y));
+          opacity: 1;
+        }
+        to {
+          transform: var(--y) translateY(calc(var(--swipe-amount-y) - 100%));
+          opacity: 0;
+        }
+      }
+      @keyframes swipe-out-down {
+        from {
+          transform: var(--y) translateY(var(--swipe-amount-y));
+          opacity: 1;
+        }
+        to {
+          transform: var(--y) translateY(calc(var(--swipe-amount-y) + 100%));
+          opacity: 0;
+        }
+      }
+      @media (max-width: 600px) {
+        [data-sonner-toaster] {
+          position: fixed;
+          right: var(--mobile-offset-right);
+          left: var(--mobile-offset-left);
+          width: 100%;
+        }
+        [data-sonner-toaster][dir="rtl"] {
+          left: calc(var(--mobile-offset-left) * -1);
+        }
+        [data-sonner-toaster] [data-sonner-toast] {
+          left: 0;
+          right: 0;
+          width: calc(100% - var(--mobile-offset-left) * 2);
+        }
+        [data-sonner-toaster][data-x-position="left"] {
+          left: var(--mobile-offset-left);
+        }
+        [data-sonner-toaster][data-y-position="bottom"] {
+          bottom: var(--mobile-offset-bottom);
+        }
+        [data-sonner-toaster][data-y-position="top"] {
+          top: var(--mobile-offset-top);
+        }
+        [data-sonner-toaster][data-x-position="center"] {
+          left: var(--mobile-offset-left);
+          right: var(--mobile-offset-right);
+          transform: none;
+        }
+      }
+      [data-sonner-toaster][data-sonner-theme="light"] {
+        --normal-bg: #fff;
+        --normal-border: var(--gray4);
+        --normal-text: var(--gray12);
+        --success-bg: hsl(143, 85%, 96%);
+        --success-border: hsl(145, 92%, 87%);
+        --success-text: hsl(140, 100%, 27%);
+        --info-bg: hsl(208, 100%, 97%);
+        --info-border: hsl(221, 91%, 93%);
+        --info-text: hsl(210, 92%, 45%);
+        --warning-bg: hsl(49, 100%, 97%);
+        --warning-border: hsl(49, 91%, 84%);
+        --warning-text: hsl(31, 92%, 45%);
+        --error-bg: hsl(359, 100%, 97%);
+        --error-border: hsl(359, 100%, 94%);
+        --error-text: hsl(360, 100%, 45%);
+      }
+      [data-sonner-toaster][data-sonner-theme="light"]
+        [data-sonner-toast][data-invert="true"] {
+        --normal-bg: #000;
+        --normal-border: hsl(0, 0%, 20%);
+        --normal-text: var(--gray1);
+      }
+      [data-sonner-toaster][data-sonner-theme="dark"]
+        [data-sonner-toast][data-invert="true"] {
+        --normal-bg: #fff;
+        --normal-border: var(--gray3);
+        --normal-text: var(--gray12);
+      }
+      [data-sonner-toaster][data-sonner-theme="dark"] {
+        --normal-bg: #000;
+        --normal-bg-hover: hsl(0, 0%, 12%);
+        --normal-border: hsl(0, 0%, 20%);
+        --normal-border-hover: hsl(0, 0%, 25%);
+        --normal-text: var(--gray1);
+        --success-bg: hsl(150, 100%, 6%);
+        --success-border: hsl(147, 100%, 12%);
+        --success-text: hsl(150, 86%, 65%);
+        --info-bg: hsl(215, 100%, 6%);
+        --info-border: hsl(223, 43%, 17%);
+        --info-text: hsl(216, 87%, 65%);
+        --warning-bg: hsl(64, 100%, 6%);
+        --warning-border: hsl(60, 100%, 9%);
+        --warning-text: hsl(46, 87%, 65%);
+        --error-bg: hsl(358, 76%, 10%);
+        --error-border: hsl(357, 89%, 16%);
+        --error-text: hsl(358, 100%, 81%);
+      }
+      [data-sonner-toaster][data-sonner-theme="dark"]
+        [data-sonner-toast]
+        [data-close-button] {
+        background: var(--normal-bg);
+        border-color: var(--normal-border);
+        color: var(--normal-text);
+      }
+      [data-sonner-toaster][data-sonner-theme="dark"]
+        [data-sonner-toast]
+        [data-close-button]:hover {
+        background: var(--normal-bg-hover);
+        border-color: var(--normal-border-hover);
+      }
+      [data-rich-colors="true"][data-sonner-toast][data-type="success"] {
+        background: var(--success-bg);
+        border-color: var(--success-border);
+        color: var(--success-text);
+      }
+      [data-rich-colors="true"][data-sonner-toast][data-type="success"]
+        [data-close-button] {
+        background: var(--success-bg);
+        border-color: var(--success-border);
+        color: var(--success-text);
+      }
+      [data-rich-colors="true"][data-sonner-toast][data-type="info"] {
+        background: var(--info-bg);
+        border-color: var(--info-border);
+        color: var(--info-text);
+      }
+      [data-rich-colors="true"][data-sonner-toast][data-type="info"]
+        [data-close-button] {
+        background: var(--info-bg);
+        border-color: var(--info-border);
+        color: var(--info-text);
+      }
+      [data-rich-colors="true"][data-sonner-toast][data-type="warning"] {
+        background: var(--warning-bg);
+        border-color: var(--warning-border);
+        color: var(--warning-text);
+      }
+      [data-rich-colors="true"][data-sonner-toast][data-type="warning"]
+        [data-close-button] {
+        background: var(--warning-bg);
+        border-color: var(--warning-border);
+        color: var(--warning-text);
+      }
+      [data-rich-colors="true"][data-sonner-toast][data-type="error"] {
+        background: var(--error-bg);
+        border-color: var(--error-border);
+        color: var(--error-text);
+      }
+      [data-rich-colors="true"][data-sonner-toast][data-type="error"]
+        [data-close-button] {
+        background: var(--error-bg);
+        border-color: var(--error-border);
+        color: var(--error-text);
+      }
+      .sonner-loading-wrapper {
+        --size: 16px;
+        height: var(--size);
+        width: var(--size);
+        position: absolute;
+        inset: 0;
+        z-index: 10;
+      }
+      .sonner-loading-wrapper[data-visible="false"] {
+        transform-origin: center;
+        animation: sonner-fade-out 0.2s ease forwards;
+      }
+      .sonner-spinner {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        height: var(--size);
+        width: var(--size);
+      }
+      .sonner-loading-bar {
+        animation: sonner-spin 1.2s linear infinite;
+        background: var(--gray11);
+        border-radius: 6px;
+        height: 8%;
+        left: -10%;
+        position: absolute;
+        top: -3.9%;
+        width: 24%;
+      }
+      .sonner-loading-bar:first-child {
+        animation-delay: -1.2s;
+        transform: rotate(0.0001deg) translate(146%);
+      }
+      .sonner-loading-bar:nth-child(2) {
+        animation-delay: -1.1s;
+        transform: rotate(30deg) translate(146%);
+      }
+      .sonner-loading-bar:nth-child(3) {
+        animation-delay: -1s;
+        transform: rotate(60deg) translate(146%);
+      }
+      .sonner-loading-bar:nth-child(4) {
+        animation-delay: -0.9s;
+        transform: rotate(90deg) translate(146%);
+      }
+      .sonner-loading-bar:nth-child(5) {
+        animation-delay: -0.8s;
+        transform: rotate(120deg) translate(146%);
+      }
+      .sonner-loading-bar:nth-child(6) {
+        animation-delay: -0.7s;
+        transform: rotate(150deg) translate(146%);
+      }
+      .sonner-loading-bar:nth-child(7) {
+        animation-delay: -0.6s;
+        transform: rotate(180deg) translate(146%);
+      }
+      .sonner-loading-bar:nth-child(8) {
+        animation-delay: -0.5s;
+        transform: rotate(210deg) translate(146%);
+      }
+      .sonner-loading-bar:nth-child(9) {
+        animation-delay: -0.4s;
+        transform: rotate(240deg) translate(146%);
+      }
+      .sonner-loading-bar:nth-child(10) {
+        animation-delay: -0.3s;
+        transform: rotate(270deg) translate(146%);
+      }
+      .sonner-loading-bar:nth-child(11) {
+        animation-delay: -0.2s;
+        transform: rotate(300deg) translate(146%);
+      }
+      .sonner-loading-bar:nth-child(12) {
+        animation-delay: -0.1s;
+        transform: rotate(330deg) translate(146%);
+      }
+      @keyframes sonner-fade-in {
+        0% {
+          opacity: 0;
+          transform: scale(0.8);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      @keyframes sonner-fade-out {
+        0% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        100% {
+          opacity: 0;
+          transform: scale(0.8);
+        }
+      }
+      @keyframes sonner-spin {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0.15;
+        }
+      }
+      @media (prefers-reduced-motion) {
+        .sonner-loading-bar,
+        [data-sonner-toast],
+        [data-sonner-toast] > * {
+          transition: none !important;
+          animation: none !important;
+        }
+      }
+      .sonner-loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transform-origin: center;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .sonner-loader[data-visible="false"] {
+        opacity: 0;
+        transform: scale(0.8) translate(-50%, -50%);
+      }
+    </style>
+    <style type="text/css">
+      .rfm-marquee-container {
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: var(--width);
+        transform: var(--transform);
+      }
+      .rfm-marquee-container:hover div {
+        animation-play-state: var(--pause-on-hover);
+      }
+      .rfm-marquee-container:active div {
+        animation-play-state: var(--pause-on-click);
+      }
+      .rfm-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      .rfm-overlay::before,
+      .rfm-overlay::after {
+        background: linear-gradient(
+          to right,
+          var(--gradient-color),
+          rgba(255, 255, 255, 0)
+        );
+        content: "";
+        height: 100%;
+        position: absolute;
+        width: var(--gradient-width);
+        z-index: 2;
+        pointer-events: none;
+        touch-action: none;
+      }
+      .rfm-overlay::after {
+        right: 0;
+        top: 0;
+        transform: rotateZ(180deg);
+      }
+      .rfm-overlay::before {
+        left: 0;
+        top: 0;
+      }
+      .rfm-marquee {
+        flex: 0 0 auto;
+        min-width: var(--min-width);
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        animation: scroll var(--duration) linear var(--delay)
+          var(--iteration-count);
+        animation-play-state: var(--play);
+        animation-delay: var(--delay);
+        animation-direction: var(--direction);
+      }
+      @keyframes scroll {
+        0% {
+          transform: translateX(0%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      .rfm-initial-child-container {
+        flex: 0 0 auto;
+        display: flex;
+        min-width: auto;
+        flex-direction: row;
+        align-items: center;
+      }
+      .rfm-child {
+        transform: var(--transform);
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="next-size-adjust" content />
+    <title>Solstice</title>
+    <meta
+      name="description"
+      content="Wall-street level gains on Solana, for everyone."
+    />
+    <link rel="icon" href="images/63.png" sizes="512x512" type="image/png" />
+    <meta name="referrer" content="no-referrer" />
+    <link
+      rel="canonical"
+      href="https://app.solstice.finance/earn?tab=withdraw"
+    />
+    <style>
+      img[src="data:,"],
+      source[src="data:,"] {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body class="__variable_e380c1 antialiased" style>
+    <div hidden></div>
+    <div
+      data-slot="sidebar-wrapper"
+      style="--sidebar-width: 17.5rem; --sidebar-width-icon: 7.3125rem"
+      class="group/sidebar-wrapper has-data-[variant=inset]:bg-sidebar flex min-h-svh w-full"
+    >
+      <div
+        class="text-sidebar-foreground group peer hidden md:block"
+        data-state="expanded"
+        data-collapsible
+        data-variant="sidebar"
+        data-side="left"
+        data-slot="sidebar"
+      >
+        <div
+          data-slot="sidebar-gap"
+          class="w-(--sidebar-width) relative bg-transparent transition-[width] duration-200 ease-linear group-data-[collapsible=offcanvas]:w-0 group-data-[side=right]:rotate-180 group-data-[collapsible=icon]:w-(--sidebar-width-icon)"
+        ></div>
+        <div
+          data-slot="sidebar-container"
+          class="w-(--sidebar-width) fixed inset-y-0 z-10 hidden h-svh transition-[left,right,width] duration-200 ease-linear md:flex left-0 group-data-[collapsible=offcanvas]:left-[calc(var(--sidebar-width)*-1)] group-data-[collapsible=icon]:w-(--sidebar-width-icon)"
+        >
+          <div
+            data-sidebar="sidebar"
+            data-slot="sidebar-inner"
+            class="bg-sidebar group-data-[variant=floating]:border-sidebar-border flex h-full w-full flex-col group-data-[variant=floating]:rounded-lg group-data-[variant=floating]:border group-data-[variant=floating]:shadow-sm"
+          >
+            <div
+              data-slot="sidebar-header"
+              data-sidebar="header"
+              class="flex gap-2 p-2 flex-row items-center justify-between px-6 py-6"
+            >
+              <a
+                class="flex w-full items-center"
+                data-testid="@sidebar/solstice-logo-link"
+                href="https://app.solstice.finance/dashboard"
+                ><img
+                  alt="logo"
+                  class="w-32"
+                  src="images/65.svg"
+                  style="transform: scale(1.05); opacity: 1"
+              /></a>
+              <div class>
+                <button
+                  data-sidebar="trigger"
+                  data-slot="sidebar-trigger"
+                  class="size-7 cursor-pointer p-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-chevron-left text-brand-orange hover:text-brand-orange size-5"
+                    aria-hidden="true"
+                  >
+                    <path d="m15 18-6-6 6-6"></path></svg
+                  ><span class="sr-only">Toggle Sidebar</span>
+                </button>
+              </div>
+            </div>
+            <div
+              data-slot="sidebar-content"
+              data-sidebar="content"
+              class="flex min-h-0 flex-1 flex-col overflow-auto px-0"
+            >
+              <div class="mb-20">
+                <div
+                  data-slot="sidebar-group"
+                  data-sidebar="group"
+                  class="relative flex w-full min-w-0 flex-col"
+                >
+                  <div class="border-y border-white/20 pb-2.5 pt-4 px-6">
+                    <div class="w-full">
+                      <div>
+                        <button
+                          data-slot="button"
+                          class="inline-flex items-center whitespace-nowrap transition-all disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary rounded-full text-sm cursor-pointer text-primary-foreground hover:bg-[#E93E32] h-10 px-6 gap-3 px-6! w-full text-left font-semibold disabled:opacity-20 justify-start h-inherit"
+                          data-testid="connect-wallet-button"
+                          onclick="openModal()">
+                          <span>Connect Your Wallet</span
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-wallet size-5"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"
+                            ></path>
+                            <path
+                              d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-slot="sidebar-group"
+                  data-sidebar="group"
+                  class="relative flex w-full min-w-0 flex-col border-b border-white/20 pb-4 pt-3.5"
+                >
+                  <div class="mb-4 pb-1.5 px-6">
+                    <div
+                      class="flex flex-row items-center gap-4 rounded-full border border-black/10 bg-white/20 py-2.5 text-[13px] font-medium justify-between px-4"
+                    >
+                      <span
+                        class="flex flex-grow items-center justify-between text-white"
+                        >TVL: $321.90M
+                        <div
+                          class="flex flex-row items-start justify-start text-[#00FF87]"
+                        >
+                          + 43.37%
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-arrow-up-right size-2.5 translate-y-0.5 transform"
+                            aria-hidden="true"
+                          >
+                            <path d="M7 7h10v10"></path>
+                            <path d="M7 17 17 7"></path>
+                          </svg></div
+                      ></span>
+                    </div>
+                  </div>
+                  <ul
+                    data-slot="sidebar-menu"
+                    data-sidebar="menu"
+                    class="w-full min-w-0 flex flex-col pb-2 gap-1"
+                  >
+                    <div
+                      class="pointer-events-auto"
+                      style="opacity: 1; transform: none"
+                    >
+                      <li
+                        data-slot="sidebar-menu-item"
+                        data-sidebar="menu-item"
+                        class="group/menu-item hover:bg-brand-sidebar-active relative flex items-center justify-center py-1.5"
+                      >
+                        <a
+                          class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-hidden ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:text-sidebar-accent active:text-sidebar-accent h-8 text-sm hover:text-brand-orange flex w-full touch-manipulation items-center gap-2 text-xs transition-colors duration-200 px-6"
+                          data-testid="@sidebar/get-started-link"
+                          data-slot="sidebar-menu-button"
+                          data-sidebar="menu-button"
+                          data-size="default"
+                          data-active="false"
+                          href="https://app.solstice.finance/"
+                          style="-webkit-tap-highlight-color: transparent"
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-play size-5! flex-shrink-0"
+                            aria-hidden="true"
+                          >
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polygon
+                              points="10 8 16 12 10 16 10 8"
+                            ></polygon></svg
+                          ><span class="flex-1 text-left text-sm"
+                            >Get Started</span
+                          ></a
+                        >
+                      </li>
+                    </div>
+                    <div
+                      class="pointer-events-auto"
+                      style="opacity: 1; transform: none"
+                    >
+                      <li
+                        data-slot="sidebar-menu-item"
+                        data-sidebar="menu-item"
+                        class="group/menu-item hover:bg-brand-sidebar-active relative flex items-center justify-center py-1.5"
+                      >
+                        <a
+                          class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-hidden ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:text-sidebar-accent active:text-sidebar-accent h-8 text-sm hover:text-brand-orange flex w-full touch-manipulation items-center gap-2 text-xs transition-colors duration-200 px-6"
+                          data-testid="@sidebar/dashboard-link"
+                          data-slot="sidebar-menu-button"
+                          data-sidebar="menu-button"
+                          data-size="default"
+                          data-active="false"
+                          href="https://app.solstice.finance/dashboard"
+                          style="-webkit-tap-highlight-color: transparent"
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-layout-dashboard size-5! flex-shrink-0"
+                            aria-hidden="true"
+                          >
+                            <rect
+                              width="7"
+                              height="9"
+                              x="3"
+                              y="3"
+                              rx="1"
+                            ></rect>
+                            <rect
+                              width="7"
+                              height="5"
+                              x="14"
+                              y="3"
+                              rx="1"
+                            ></rect>
+                            <rect
+                              width="7"
+                              height="9"
+                              x="14"
+                              y="12"
+                              rx="1"
+                            ></rect>
+                            <rect
+                              width="7"
+                              height="5"
+                              x="3"
+                              y="16"
+                              rx="1"
+                            ></rect></svg
+                          ><span class="flex-1 text-left text-sm"
+                            >Dashboard</span
+                          ></a
+                        >
+                      </li>
+                    </div>
+                    <div
+                      class="pointer-events-auto"
+                      style="opacity: 1; transform: none"
+                    >
+                      <li
+                        data-slot="sidebar-menu-item"
+                        data-sidebar="menu-item"
+                        class="group/menu-item hover:bg-brand-sidebar-active relative flex items-center justify-center py-1.5"
+                      >
+                        <a
+                          class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-hidden ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:text-sidebar-accent active:text-sidebar-accent h-8 text-sm hover:text-brand-orange flex w-full touch-manipulation items-center gap-2 text-xs transition-colors duration-200 px-6"
+                          data-testid="@sidebar/swap-link"
+                          data-slot="sidebar-menu-button"
+                          data-sidebar="menu-button"
+                          data-size="default"
+                          data-active="false"
+                          href="https://app.solstice.finance/swap"
+                          style="-webkit-tap-highlight-color: transparent"
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-arrow-left-right size-5! flex-shrink-0"
+                            aria-hidden="true"
+                          >
+                            <path d="M8 3 4 7l4 4"></path>
+                            <path d="M4 7h16"></path>
+                            <path d="m16 21 4-4-4-4"></path>
+                            <path d="M20 17H4"></path></svg
+                          ><span class="flex-1 text-left text-sm">Swap</span></a
+                        >
+                      </li>
+                    </div>
+                  </ul>
+                </div>
+                <div
+                  data-slot="sidebar-group"
+                  data-sidebar="group"
+                  class="relative flex w-full min-w-0 flex-col border-b border-white/20 pb-[23px] pt-6"
+                >
+                  <ul
+                    data-slot="sidebar-menu"
+                    data-sidebar="menu"
+                    class="w-full min-w-0 flex flex-col gap-1"
+                  >
+                    <div
+                      class="pointer-events-auto"
+                      style="opacity: 1; transform: none"
+                    >
+                      <li
+                        data-slot="sidebar-menu-item"
+                        data-sidebar="menu-item"
+                        class="group/menu-item relative"
+                      >
+                        <div>
+                          <div
+                            data-slot="accordion"
+                            data-orientation="vertical"
+                          >
+                            <div
+                              data-state="open"
+                              data-orientation="vertical"
+                              data-slot="accordion-item"
+                              class="border-b last:border-b-0"
+                            >
+                              <h3
+                                data-orientation="vertical"
+                                data-state="open"
+                                class="flex"
+                              >
+                                <button
+                                  type="button"
+                                  aria-controls="radix-«r9»"
+                                  aria-expanded="true"
+                                  data-state="open"
+                                  data-orientation="vertical"
+                                  id="radix-«r8»"
+                                  data-slot="accordion-trigger"
+                                  class="focus-visible:border-ring focus-visible:ring-ring/50 flex flex-1 items-start justify-between gap-4 text-left text-sm font-medium outline-none transition-all hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&amp;[data-state=open]>svg]:rotate-180 group rounded-none py-0"
+                                  data-radix-collection-item
+                                >
+                                  <div
+                                    class="hover:text-brand-orange hover:bg-brand-sidebar-active flex w-full cursor-pointer items-center gap-2 rounded-none px-6 py-3 transition-colors duration-200 bg-brand-sidebar-active text-brand-orange"
+                                  >
+                                    <div class="flex items-center">
+                                      <img
+                                        alt="YieldVault"
+                                        loading="lazy"
+                                        width="142"
+                                        height="16"
+                                        decoding="async"
+                                        data-nimg="1"
+                                        class="w-full"
+                                        src="images/66.svg"
+                                        style="color: transparent"
+                                      />
+                                    </div>
+                                    <div class="flex-1"></div>
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="24"
+                                      height="24"
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      stroke-width="2"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      class="lucide lucide-chevron-right ml-auto flex-shrink-0 transition-transform duration-200 group-data-[state=open]:rotate-90"
+                                      aria-hidden="true"
+                                    >
+                                      <path d="m9 18 6-6-6-6"></path>
+                                    </svg>
+                                  </div>
+                                </button>
+                              </h3>
+                              <div
+                                data-state="open"
+                                id="radix-«r9»"
+                                role="region"
+                                aria-labelledby="radix-«r8»"
+                                data-orientation="vertical"
+                                data-slot="accordion-content"
+                                class="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm"
+                                style="
+                                  --radix-accordion-content-height: var(
+                                    --radix-collapsible-content-height
+                                  );
+                                  --radix-accordion-content-width: var(
+                                    --radix-collapsible-content-width
+                                  );
+                                  transition-duration: 0s;
+                                  animation-name: none;
+                                  --radix-collapsible-content-height: 132px;
+                                  --radix-collapsible-content-width: 270px;
+                                "
+                              >
+                                <div class="p-0">
+                                  <ul
+                                    data-slot="sidebar-menu-sub"
+                                    data-sidebar="menu-sub"
+                                    class="flex min-w-0 flex-col gap-1 py-0.5 group-data-[collapsible=icon]:hidden mx-0 border-l-0 px-0"
+                                  >
+                                    <div style="opacity: 1; transform: none">
+                                      <li
+                                        data-slot="sidebar-menu-sub-item"
+                                        data-sidebar="menu-sub-item"
+                                        class="group/menu-sub-item relative"
+                                      >
+                                        <a
+                                          class="text-sidebar-foreground ring-sidebar-ring hover:text-sidebar-accent active:text-sidebar-accent outline-hidden flex h-7 min-w-0 -translate-x-px items-center gap-2 overflow-hidden rounded-md px-2 focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 data-[active=true]:text-sidebar-accent text-sm group-data-[collapsible=icon]:hidden hover:text-brand-orange h-auto! flex w-full items-center gap-3 px-12 py-2.5 text-xs transition-colors duration-200"
+                                          data-testid="@sidebar/lock-link"
+                                          data-slot="sidebar-menu-sub-button"
+                                          data-sidebar="menu-sub-button"
+                                          data-size="md"
+                                          data-active="false"
+                                          href="https://app.solstice.finance/earn?tab=lock"
+                                          ><div
+                                            class="h-2 w-2 rounded-full bg-white/30"
+                                          ></div>
+                                          <span class="text-sm">Lock</span></a
+                                        >
+                                      </li>
+                                    </div>
+                                    <div style="opacity: 1; transform: none">
+                                      <li
+                                        data-slot="sidebar-menu-sub-item"
+                                        data-sidebar="menu-sub-item"
+                                        class="group/menu-sub-item relative"
+                                      >
+                                        <a
+                                          class="text-sidebar-foreground ring-sidebar-ring hover:text-sidebar-accent active:text-sidebar-accent outline-hidden flex h-7 min-w-0 -translate-x-px items-center gap-2 overflow-hidden rounded-md px-2 focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 data-[active=true]:text-sidebar-accent text-sm group-data-[collapsible=icon]:hidden hover:text-brand-orange h-auto! flex w-full items-center gap-3 px-12 py-2.5 text-xs transition-colors duration-200"
+                                          data-testid="@sidebar/unlock-link"
+                                          data-slot="sidebar-menu-sub-button"
+                                          data-sidebar="menu-sub-button"
+                                          data-size="md"
+                                          data-active="false"
+                                          href="https://app.solstice.finance/earn?tab=unlock"
+                                          ><div
+                                            class="h-2 w-2 rounded-full bg-white/30"
+                                          ></div>
+                                          <span class="text-sm">Unlock</span></a
+                                        >
+                                      </li>
+                                    </div>
+                                    <div style="opacity: 1; transform: none">
+                                      <li
+                                        data-slot="sidebar-menu-sub-item"
+                                        data-sidebar="menu-sub-item"
+                                        class="group/menu-sub-item relative text-brand-orange"
+                                      >
+                                        <a
+                                          class="text-sidebar-foreground ring-sidebar-ring hover:text-sidebar-accent active:text-sidebar-accent outline-hidden flex h-7 min-w-0 -translate-x-px items-center gap-2 overflow-hidden rounded-md px-2 focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 data-[active=true]:text-sidebar-accent text-sm group-data-[collapsible=icon]:hidden hover:text-brand-orange h-auto! flex w-full items-center gap-3 px-12 py-2.5 text-xs transition-colors duration-200"
+                                          data-testid="@sidebar/withdraw-link"
+                                          data-slot="sidebar-menu-sub-button"
+                                          data-sidebar="menu-sub-button"
+                                          data-size="md"
+                                          data-active="false"
+                                          href="https://app.solstice.finance/earn?tab=withdraw"
+                                          ><div
+                                            class="h-2 w-2 rounded-full bg-brand-orange"
+                                          ></div>
+                                          <span class="text-sm"
+                                            >Withdraw</span
+                                          ></a
+                                        >
+                                      </li>
+                                    </div>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </div>
+                  </ul>
+                </div>
+                <div
+                  data-slot="sidebar-group"
+                  data-sidebar="group"
+                  class="relative flex w-full min-w-0 flex-col border-b border-white/20 pb-4 pt-6"
+                >
+                  <ul
+                    data-slot="sidebar-menu"
+                    data-sidebar="menu"
+                    class="w-full min-w-0 flex flex-col pb-2 gap-1"
+                  >
+                    <div
+                      class="pointer-events-auto"
+                      style="opacity: 1; transform: none"
+                    >
+                      <li
+                        data-slot="sidebar-menu-item"
+                        data-sidebar="menu-item"
+                        class="group/menu-item hover:bg-brand-sidebar-active relative flex items-center justify-center py-1.5"
+                      >
+                        <a
+                          class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-hidden ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:text-sidebar-accent active:text-sidebar-accent h-8 text-sm hover:text-brand-orange flex w-full touch-manipulation items-center gap-2 text-xs transition-colors duration-200 px-6"
+                          data-testid="@sidebar/deep-defi-link"
+                          data-slot="sidebar-menu-button"
+                          data-sidebar="menu-button"
+                          data-size="default"
+                          data-active="false"
+                          href="https://app.solstice.finance/deep-defi"
+                          style="-webkit-tap-highlight-color: transparent"
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-chart-area size-5! flex-shrink-0"
+                            aria-hidden="true"
+                          >
+                            <path d="M3 3v16a2 2 0 0 0 2 2h16"></path>
+                            <path
+                              d="M7 11.207a.5.5 0 0 1 .146-.353l2-2a.5.5 0 0 1 .708 0l3.292 3.292a.5.5 0 0 0 .708 0l4.292-4.292a.5.5 0 0 1 .854.353V16a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z"
+                            ></path></svg
+                          ><span class="flex-1 text-left text-sm"
+                            >Deep DeFi</span
+                          ></a
+                        >
+                      </li>
+                    </div>
+                    <div
+                      class="pointer-events-auto"
+                      style="opacity: 1; transform: none"
+                    >
+                      <li
+                        data-slot="sidebar-menu-item"
+                        data-sidebar="menu-item"
+                        class="group/menu-item hover:bg-brand-sidebar-active relative flex items-center justify-center py-1.5"
+                      >
+                        <a
+                          class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-hidden ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:text-sidebar-accent active:text-sidebar-accent h-8 text-sm hover:text-brand-orange flex w-full touch-manipulation items-center gap-2 text-xs transition-colors duration-200 px-6"
+                          data-testid="@sidebar/earn-flares-link"
+                          data-slot="sidebar-menu-button"
+                          data-sidebar="menu-button"
+                          data-size="default"
+                          data-active="false"
+                          href="https://app.solstice.finance/earn-flares"
+                          style="-webkit-tap-highlight-color: transparent"
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-star size-5! flex-shrink-0"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                            ></path></svg
+                          ><span class="flex-1 text-left text-sm"
+                            >Earn Flares</span
+                          ></a
+                        >
+                      </li>
+                    </div>
+                  </ul>
+                </div>
+                <div
+                  data-slot="sidebar-group"
+                  data-sidebar="group"
+                  class="relative flex w-full min-w-0 flex-col border-b border-white/20 pb-4 pt-6"
+                >
+                  <ul
+                    data-slot="sidebar-menu"
+                    data-sidebar="menu"
+                    class="w-full min-w-0 flex flex-col pb-2 gap-1"
+                  >
+                    <div
+                      class="pointer-events-auto"
+                      style="opacity: 1; transform: none"
+                    >
+                      <li
+                        data-slot="sidebar-menu-item"
+                        data-sidebar="menu-item"
+                        class="group/menu-item hover:bg-brand-sidebar-active relative flex items-center justify-center py-1.5"
+                      >
+                        <a
+                          target="_blank"
+                          class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-hidden ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:text-sidebar-accent active:text-sidebar-accent h-8 text-sm hover:text-brand-orange flex w-full touch-manipulation items-center gap-2 text-xs transition-colors duration-200 px-6"
+                          data-testid="@sidebar/docs-link"
+                          data-slot="sidebar-menu-button"
+                          data-sidebar="menu-button"
+                          data-size="default"
+                          data-active="false"
+                          href="https://docs.solstice.finance/"
+                          style="-webkit-tap-highlight-color: transparent"
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-file size-5! flex-shrink-0"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"
+                            ></path>
+                            <path d="M14 2v4a2 2 0 0 0 2 2h4"></path></svg
+                          ><span class="flex-1 text-left text-sm">Docs</span></a
+                        >
+                      </li>
+                    </div>
+                    <div
+                      class="pointer-events-auto"
+                      style="opacity: 1; transform: none"
+                    >
+                      <li
+                        data-slot="sidebar-menu-item"
+                        data-sidebar="menu-item"
+                        class="group/menu-item hover:bg-brand-sidebar-active relative flex items-center justify-center py-1.5"
+                      >
+                        <a
+                          target="_blank"
+                          class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-hidden ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! [&amp;>span:last-child]:truncate [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 hover:text-sidebar-accent active:text-sidebar-accent h-8 text-sm hover:text-brand-orange flex w-full touch-manipulation items-center gap-2 text-xs transition-colors duration-200 px-6"
+                          data-testid="@sidebar/support-link"
+                          data-slot="sidebar-menu-button"
+                          data-sidebar="menu-button"
+                          data-size="default"
+                          data-active="false"
+                          href="https://discord.gg/TSmeMaYty2"
+                          style="-webkit-tap-highlight-color: transparent"
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 18 15"
+                            class="fill-current"
+                          >
+                            <path
+                              d="M15.245 1.702A14.648 14.648 0 0 0 11.533.535c-.16.29-.346.678-.475.988a13.631 13.631 0 0 0-4.116 0c-.129-.31-.32-.699-.482-.988-1.303.226-2.55.623-3.716 1.17C.394 5.256-.242 8.719.076 12.132a14.85 14.85 0 0 0 4.555 2.334c.366-.504.693-1.041.976-1.606a9.589 9.589 0 0 1-1.536-.747c.13-.095.255-.194.377-.298 2.96 1.386 6.18 1.386 9.105 0 .124.104.25.203.377.298a9.42 9.42 0 0 1-1.538.749c.282.564.607 1.101.976 1.606a14.806 14.806 0 0 0 4.556-2.336c.373-3.957-.639-7.388-2.675-10.429h-.004Zm-9.236 8.33c-.888 0-1.618-.829-1.618-1.84 0-1.01.713-1.84 1.618-1.84.906 0 1.634.829 1.618 1.84 0 1.011-.712 1.84-1.618 1.84Zm5.98 0c-.888 0-1.618-.829-1.618-1.84 0-1.01.713-1.84 1.618-1.84.905 0 1.633.829 1.618 1.84 0 1.011-.713 1.84-1.618 1.84Z"
+                            ></path></svg
+                          ><span class="flex-1 text-left text-sm"
+                            >Support</span
+                          ></a
+                        >
+                      </li>
+                    </div>
+                  </ul>
+                </div>
+              </div>
+              <div
+                data-slot="sidebar-group"
+                data-sidebar="group"
+                class="relative flex w-full min-w-0 flex-col"
+              >
+                <div class="border-b border-white/20 px-6 pb-8">
+                  <div
+                    class="ring-brand-main-purple bg-brand-purple inset-ring-border overflow-clip rounded-lg ring"
+                  >
+                    <figure>
+                      <img
+                        alt
+                        loading="lazy"
+                        width="231"
+                        height="70"
+                        decoding="async"
+                        data-nimg="1"
+                        class="h-[70px] w-full object-cover"
+                        srcset="images/77.webp 1x, images/78.webp 2x"
+                        src="images/67.webp"
+                        style="color: transparent"
+                      />
+                    </figure>
+                    <div class="relative p-5">
+                      <img
+                        alt
+                        loading="lazy"
+                        width="231"
+                        height="170"
+                        decoding="async"
+                        data-nimg="1"
+                        class="pointer-events-none absolute inset-0 size-full select-none object-cover"
+                        src="images/68.svg"
+                        style="color: transparent"
+                      />
+                      <div class="relative z-10 text-white">
+                        <div class="mb-4 text-sm font-medium">
+                          Journey to $1bn
+                        </div>
+                        <p class="mb-3 text-xs leading-[20px]">
+                          Join the journey to $1 Billion in TVL and receive
+                          generous SLX Airdrop rewards.
+                        </p>
+                        <a
+                          data-testid="@sidebar/learn-more-1bn-journey-link"
+                          data-slot="button"
+                          class="inline-flex items-center justify-center whitespace-nowrap rounded-md transition-all disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive gap-1.5! text-primary underline-offset-4 hover:underline font-semibold disabled:pointer-events-auto disabled:cursor-not-allowed disabled:hover:no-underline h-10 px-6 gap-3 p-0! group/sidebar-cta cursor-pointer text-xs"
+                          href="https://app.solstice.finance/earn-flares"
+                          ><span class="group-hover/sidebar-cta:underline"
+                            >Learn more</span
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-arrow-right transform transition-transform duration-300 group-hover/sidebar-cta:translate-x-1"
+                            aria-hidden="true"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path></svg
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main
+        data-slot="sidebar-inset"
+        class="bg-background w-full flex-1 md:peer-data-[variant=inset]:m-2 md:peer-data-[variant=inset]:ml-0 md:peer-data-[variant=inset]:peer-data-[state=collapsed]:ml-2 md:peer-data-[variant=inset]:rounded-xl md:peer-data-[variant=inset]:shadow-sm relative flex min-h-screen flex-col"
+      >
+        <div class="w-full flex-1">
+          <div class="@container relative z-10 flex h-full flex-1 flex-col">
+            <header
+              class="bg-brand-purple sticky top-0 z-50 h-[var(--header-height)] md:hidden"
+            >
+              <div class="flex h-full items-center gap-2 px-4">
+                <div class="flex w-full items-center gap-2">
+                  <a
+                    class="flex-grow"
+                    href="https://app.solstice.finance/dashboard"
+                    ><img
+                      alt="Solstice"
+                      loading="lazy"
+                      width="144"
+                      height="43"
+                      decoding="async"
+                      data-nimg="1"
+                      style="color: transparent"
+                      src="images/65.svg" /></a
+                  ><button
+                    class="flex cursor-pointer items-center gap-2 rounded-md p-2 transition-all duration-200"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-menu text-brand-orange size-6"
+                      aria-hidden="true"
+                    >
+                      <path d="M4 12h16"></path>
+                      <path d="M4 18h16"></path>
+                      <path d="M4 6h16"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="h-0.5 w-full bg-[linear-gradient(94deg,_#ED863B_43.76%,_#FF9E36_61.64%,_#E09BC5_79.72%,_#A5C5DE_96.41%)]"
+              ></div>
+            </header>
+            <main class="bg-brand-app-widget-bg flex-1">
+              <!--$--><!--/$-->
+              <div
+                class="flex-row justify-start gap-4 relative flex min-h-full items-start pb-10"
+              >
+                <div
+                  class="@2xl:translate-y-0 absolute inset-0 z-0 translate-y-[var(--header-height)] transform"
+                >
+                  <div
+                    class="absolute inset-0 z-0 opacity-20"
+                    style="
+                      background-image: linear-gradient(
+                        181.42deg,
+                        rgb(247, 247, 248) 2.64%,
+                        rgb(237, 134, 59) 17.78%,
+                        rgb(233, 62, 50) 38.23%,
+                        rgb(88, 44, 112) 56.73%,
+                        rgb(63, 34, 88) 72.44%,
+                        rgb(11, 9, 15) 88.62%
+                      );
+                    "
+                  ></div>
+                  <img
+                    alt
+                    loading="lazy"
+                    width="1640"
+                    height="835"
+                    decoding="async"
+                    data-nimg="1"
+                    class="@6xl:block sticky inset-0 z-10 hidden w-full"
+                    srcset="images/79.webp 1x, images/80.webp 2x"
+                    src="images/69.webp"
+                    style="color: transparent"
+                  /><img
+                    alt
+                    loading="lazy"
+                    width="457"
+                    height="286"
+                    decoding="async"
+                    data-nimg="1"
+                    class="@6xl:block absolute bottom-0 right-0 z-10 hidden"
+                    src="images/70.svg"
+                    style="color: transparent"
+                  />
+                  <div
+                    class="@8xl:right-32 text-brand-ui-grey border-brand-orange pointer-events-none absolute right-9 top-[var(--header-height)] hidden max-h-32 w-[2.75em] translate-y-8 transform border-t-2 pt-2 text-[8px] font-semibold uppercase tracking-widest [writing-mode:vertical-rl] 2xl:block"
+                  >
+                    Permissionless institutional yield
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col items-stretch justify-start @2xl:gap-1 @2xl:px-4 @2xl:bg-transparent bg-brand-app-widget-bg @2xl:pt-6 relative z-20 mx-auto w-full max-w-[718px] gap-0 overflow-clip rounded-b-2xl pt-6 md:pt-0"
+                >
+                  <div
+                    class="@2xl:mx-0 border-brand-ui-grey/20 @2xl:border-0 @2xl:pb-[30px] mx-5 flex flex-row flex-wrap items-center justify-between gap-4 border-b pb-5 md:pt-5"
+                  >
+                    <img
+                      alt="solstice logo"
+                      loading="lazy"
+                      width="213"
+                      height="24"
+                      decoding="async"
+                      data-nimg="1"
+                      class="@2xl:h-6 h-[13px] w-auto"
+                      src="images/71.svg"
+                      style="color: transparent"
+                    />
+                    <div
+                      class="@2xl:text-2xl text-brand-vibrant-purple text-base font-medium"
+                    >
+                      1-Click Yield
+                    </div>
+                  </div>
+                  <div
+                    class="@2xl:shadow-md @2xl:rounded-2xl overflow-clip rounded-b-2xl bg-[#F8F6F7]"
+                  >
+                    <div
+                      class="flex flex-row items-center justify-start gap-4 bg-brand-vibrant-purple h-18 @2xl:mb-0 relative mb-6 overflow-clip"
+                    >
+                      <div
+                        class="absolute -left-1/2 -top-1/2 h-[411px] w-[423px] -translate-y-1/3 translate-x-1/3 transform"
+                        style="
+                          background: radial-gradient(
+                            50% 50%,
+                            rgb(101, 96, 152) 0%,
+                            rgb(82, 43, 114) 60%,
+                            rgba(82, 43, 114, 0) 100%
+                          );
+                        "
+                      ></div>
+                      <div class="@2xl:block hidden w-full px-8">
+                        <div
+                          class="flex flex-row items-center justify-start relative z-10 h-full gap-[18px]"
+                        >
+                          <div
+                            class="flex flex-row items-center justify-start gap-2 text-brand-stone whitespace-nowrap text-sm"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-trending-up size-5"
+                              aria-hidden="true"
+                            >
+                              <path d="M16 7h6v6"></path>
+                              <path d="m22 7-8.5 8.5-5-5L2 17"></path></svg
+                            >≈4.5% APY<button
+                              data-state="closed"
+                              data-slot="tooltip-trigger"
+                              class="cursor-pointer"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-info size-[18px]"
+                                aria-hidden="true"
+                              >
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 16v-4"></path>
+                                <path d="M12 8h.01"></path>
+                              </svg>
+                            </button>
+                          </div>
+                          <div class="h-[34px] w-px bg-white/20"></div>
+                          <div
+                            class="flex flex-row items-center justify-start gap-2 text-brand-stone whitespace-nowrap text-sm"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-lock-open size-5"
+                              aria-hidden="true"
+                            >
+                              <rect
+                                width="18"
+                                height="11"
+                                x="3"
+                                y="11"
+                                rx="2"
+                                ry="2"
+                              ></rect>
+                              <path d="M7 11V7a5 5 0 0 1 9.9-1"></path></svg
+                            >Unlock Anytime
+                          </div>
+                          <div class="h-[34px] w-px bg-white/20"></div>
+                          <div
+                            class="flex flex-row items-center justify-start gap-2 text-brand-stone whitespace-nowrap text-sm"
+                          >
+                            <svg
+                              width="16"
+                              height="16"
+                              viewBox="0 0 22 25"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="shrink-0 text-brand-orange size-6"
+                            >
+                              <g clip-path="url(#clip0_4171_3394)">
+                                <path
+                                  d="M10.135 24.117C10.135 22.2241 9.92285 20.6809 9.51892 19.5275C9.15171 18.4867 8.61721 17.7633 7.93175 17.3735C7.24629 16.9837 6.3405 16.8953 5.24295 17.1042C4.02708 17.3373 2.57047 17.9361 0.905786 18.8845L0.0163205 17.3775C1.68101 16.4291 2.93361 15.4807 3.74147 14.5563C4.47181 13.7245 4.8431 12.9046 4.83902 12.125C4.83902 11.3454 4.46365 10.5295 3.73331 9.69766C2.92137 8.77737 1.66469 7.83296 0 6.88855L0.885386 5.3775C2.55007 6.32191 4.01076 6.91669 5.22663 7.14575C6.32418 7.35071 7.22997 7.25828 7.91135 6.86846C8.59681 6.47864 9.12723 5.75125 9.49036 4.71039C9.89429 3.55701 10.0983 2.01381 10.0942 0.120972H11.865C11.865 2.00979 12.0772 3.55299 12.4811 4.70637C12.8483 5.74723 13.3828 6.4706 14.0682 6.86042C14.7537 7.25024 15.6595 7.33865 16.757 7.12968C17.9729 6.89659 19.4295 6.2978 21.0942 5.34937L21.9837 6.86042C20.319 7.80885 19.0664 8.75727 18.2585 9.68159C17.5282 10.5135 17.1569 11.3333 17.161 12.1129C17.161 12.8926 17.5364 13.7084 18.2667 14.5403C19.0786 15.4606 20.3353 16.405 22 17.3494L21.1146 18.8604C19.4499 17.916 17.9892 17.3212 16.7734 17.0922C15.6758 16.8872 14.77 16.9796 14.0886 17.3695C13.4032 17.7593 12.8728 18.4867 12.5096 19.5275C12.1057 20.6809 11.9017 22.2241 11.9058 24.117H10.135ZM7.82975 13.9616C8.51521 13.9616 9.12723 14.1143 9.65764 14.4157C10.2044 14.7251 10.6573 15.1873 11.0041 15.7981C11.3509 15.1873 11.7997 14.7251 12.3464 14.4117C12.8932 14.0982 13.5256 13.9455 14.2355 13.9535C13.8724 13.3547 13.6888 12.7399 13.6888 12.117C13.6888 11.494 13.8683 10.8792 14.2315 10.2764C14.2111 10.2764 14.1907 10.2764 14.1703 10.2764C13.4848 10.2764 12.8728 10.1237 12.3424 9.82224C11.7956 9.5128 11.3427 9.05064 10.9959 8.43979C10.6491 9.05064 10.2003 9.5128 9.65356 9.82626C9.10682 10.1397 8.47441 10.2924 7.76447 10.2844C8.1276 10.8832 8.3112 11.4981 8.3112 12.121C8.3112 12.7439 8.13168 13.3587 7.76855 13.9616C7.78895 13.9616 7.80935 13.9616 7.82975 13.9616Z"
+                                  fill="currentColor"
+                                ></path>
+                              </g>
+                              <defs>
+                                <clippath id="clip0_4171_3394">
+                                  <rect
+                                    width="22"
+                                    height="24"
+                                    fill="white"
+                                    transform="translate(0 0.116943)"
+                                  ></rect>
+                                </clippath>
+                              </defs></svg
+                            >Lock and start earning flares<button
+                              data-state="closed"
+                              data-slot="tooltip-trigger"
+                              class="cursor-pointer"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-info size-[18px]"
+                                aria-hidden="true"
+                              >
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 16v-4"></path>
+                                <path d="M12 8h.01"></path>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="relative w-full overflow-hidden @2xl:hidden">
+                        <div
+                          class="rfm-marquee-container"
+                          style="
+                            --pause-on-hover: paused;
+                            --pause-on-click: paused;
+                            --width: 100%;
+                            --transform: none;
+                          "
+                        >
+                          <div
+                            class="rfm-marquee"
+                            style="
+                              --play: running;
+                              --direction: normal;
+                              --duration: 0s;
+                              --delay: 0s;
+                              --iteration-count: infinite;
+                              --min-width: auto;
+                            "
+                          >
+                            <div class="rfm-initial-child-container">
+                              <div class="rfm-child" style="--transform: none">
+                                <div class="mx-2 flex-shrink-0 object-contain">
+                                  <div
+                                    class="flex flex-row items-center justify-start relative z-10 h-full gap-[18px]"
+                                  >
+                                    <div
+                                      class="flex flex-row items-center justify-start gap-2 text-brand-stone whitespace-nowrap text-sm"
+                                    >
+                                      <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-trending-up size-5"
+                                        aria-hidden="true"
+                                      >
+                                        <path d="M16 7h6v6"></path>
+                                        <path
+                                          d="m22 7-8.5 8.5-5-5L2 17"
+                                        ></path></svg
+                                      >≈4.5% APY<button
+                                        data-state="closed"
+                                        data-slot="tooltip-trigger"
+                                        class="cursor-pointer"
+                                      >
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width="24"
+                                          height="24"
+                                          viewBox="0 0 24 24"
+                                          fill="none"
+                                          stroke="currentColor"
+                                          stroke-width="2"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          class="lucide lucide-info size-[18px]"
+                                          aria-hidden="true"
+                                        >
+                                          <circle
+                                            cx="12"
+                                            cy="12"
+                                            r="10"
+                                          ></circle>
+                                          <path d="M12 16v-4"></path>
+                                          <path d="M12 8h.01"></path>
+                                        </svg>
+                                      </button>
+                                    </div>
+                                    <div
+                                      class="h-[34px] w-px bg-white/20"
+                                    ></div>
+                                    <div
+                                      class="flex flex-row items-center justify-start gap-2 text-brand-stone whitespace-nowrap text-sm"
+                                    >
+                                      <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-lock-open size-5"
+                                        aria-hidden="true"
+                                      >
+                                        <rect
+                                          width="18"
+                                          height="11"
+                                          x="3"
+                                          y="11"
+                                          rx="2"
+                                          ry="2"
+                                        ></rect>
+                                        <path
+                                          d="M7 11V7a5 5 0 0 1 9.9-1"
+                                        ></path></svg
+                                      >Unlock Anytime
+                                    </div>
+                                    <div
+                                      class="h-[34px] w-px bg-white/20"
+                                    ></div>
+                                    <div
+                                      class="flex flex-row items-center justify-start gap-2 text-brand-stone whitespace-nowrap text-sm"
+                                    >
+                                      <svg
+                                        width="16"
+                                        height="16"
+                                        viewBox="0 0 22 25"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="shrink-0 text-brand-orange size-6"
+                                      >
+                                        <g clip-path="url(#clip0_4171_3394)">
+                                          <path
+                                            d="M10.135 24.117C10.135 22.2241 9.92285 20.6809 9.51892 19.5275C9.15171 18.4867 8.61721 17.7633 7.93175 17.3735C7.24629 16.9837 6.3405 16.8953 5.24295 17.1042C4.02708 17.3373 2.57047 17.9361 0.905786 18.8845L0.0163205 17.3775C1.68101 16.4291 2.93361 15.4807 3.74147 14.5563C4.47181 13.7245 4.8431 12.9046 4.83902 12.125C4.83902 11.3454 4.46365 10.5295 3.73331 9.69766C2.92137 8.77737 1.66469 7.83296 0 6.88855L0.885386 5.3775C2.55007 6.32191 4.01076 6.91669 5.22663 7.14575C6.32418 7.35071 7.22997 7.25828 7.91135 6.86846C8.59681 6.47864 9.12723 5.75125 9.49036 4.71039C9.89429 3.55701 10.0983 2.01381 10.0942 0.120972H11.865C11.865 2.00979 12.0772 3.55299 12.4811 4.70637C12.8483 5.74723 13.3828 6.4706 14.0682 6.86042C14.7537 7.25024 15.6595 7.33865 16.757 7.12968C17.9729 6.89659 19.4295 6.2978 21.0942 5.34937L21.9837 6.86042C20.319 7.80885 19.0664 8.75727 18.2585 9.68159C17.5282 10.5135 17.1569 11.3333 17.161 12.1129C17.161 12.8926 17.5364 13.7084 18.2667 14.5403C19.0786 15.4606 20.3353 16.405 22 17.3494L21.1146 18.8604C19.4499 17.916 17.9892 17.3212 16.7734 17.0922C15.6758 16.8872 14.77 16.9796 14.0886 17.3695C13.4032 17.7593 12.8728 18.4867 12.5096 19.5275C12.1057 20.6809 11.9017 22.2241 11.9058 24.117H10.135ZM7.82975 13.9616C8.51521 13.9616 9.12723 14.1143 9.65764 14.4157C10.2044 14.7251 10.6573 15.1873 11.0041 15.7981C11.3509 15.1873 11.7997 14.7251 12.3464 14.4117C12.8932 14.0982 13.5256 13.9455 14.2355 13.9535C13.8724 13.3547 13.6888 12.7399 13.6888 12.117C13.6888 11.494 13.8683 10.8792 14.2315 10.2764C14.2111 10.2764 14.1907 10.2764 14.1703 10.2764C13.4848 10.2764 12.8728 10.1237 12.3424 9.82224C11.7956 9.5128 11.3427 9.05064 10.9959 8.43979C10.6491 9.05064 10.2003 9.5128 9.65356 9.82626C9.10682 10.1397 8.47441 10.2924 7.76447 10.2844C8.1276 10.8832 8.3112 11.4981 8.3112 12.121C8.3112 12.7439 8.13168 13.3587 7.76855 13.9616C7.78895 13.9616 7.80935 13.9616 7.82975 13.9616Z"
+                                            fill="currentColor"
+                                          ></path>
+                                        </g>
+                                        <defs>
+                                          <clippath id="clip0_4171_3394">
+                                            <rect
+                                              width="22"
+                                              height="24"
+                                              fill="white"
+                                              transform="translate(0 0.116943)"
+                                            ></rect>
+                                          </clippath>
+                                        </defs></svg
+                                      >Lock and start earning flares<button
+                                        data-state="closed"
+                                        data-slot="tooltip-trigger"
+                                        class="cursor-pointer"
+                                      >
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width="24"
+                                          height="24"
+                                          viewBox="0 0 24 24"
+                                          fill="none"
+                                          stroke="currentColor"
+                                          stroke-width="2"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          class="lucide lucide-info size-[18px]"
+                                          aria-hidden="true"
+                                        >
+                                          <circle
+                                            cx="12"
+                                            cy="12"
+                                            r="10"
+                                          ></circle>
+                                          <path d="M12 16v-4"></path>
+                                          <path d="M12 8h.01"></path>
+                                        </svg>
+                                      </button>
+                                    </div>
+                                    <div
+                                      class="h-[34px] w-px bg-white/20"
+                                    ></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="rfm-marquee"
+                            style="
+                              --play: running;
+                              --direction: normal;
+                              --duration: 0s;
+                              --delay: 0s;
+                              --iteration-count: infinite;
+                              --min-width: auto;
+                            "
+                          >
+                            <div class="rfm-child" style="--transform: none">
+                              <div class="mx-2 flex-shrink-0 object-contain">
+                                <div
+                                  class="flex flex-row items-center justify-start relative z-10 h-full gap-[18px]"
+                                >
+                                  <div
+                                    class="flex flex-row items-center justify-start gap-2 text-brand-stone whitespace-nowrap text-sm"
+                                  >
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="24"
+                                      height="24"
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      stroke-width="2"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      class="lucide lucide-trending-up size-5"
+                                      aria-hidden="true"
+                                    >
+                                      <path d="M16 7h6v6"></path>
+                                      <path
+                                        d="m22 7-8.5 8.5-5-5L2 17"
+                                      ></path></svg
+                                    >≈4.5% APY<button
+                                      data-state="closed"
+                                      data-slot="tooltip-trigger"
+                                      class="cursor-pointer"
+                                    >
+                                      <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-info size-[18px]"
+                                        aria-hidden="true"
+                                      >
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M12 16v-4"></path>
+                                        <path d="M12 8h.01"></path>
+                                      </svg>
+                                    </button>
+                                  </div>
+                                  <div class="h-[34px] w-px bg-white/20"></div>
+                                  <div
+                                    class="flex flex-row items-center justify-start gap-2 text-brand-stone whitespace-nowrap text-sm"
+                                  >
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="24"
+                                      height="24"
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      stroke-width="2"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      class="lucide lucide-lock-open size-5"
+                                      aria-hidden="true"
+                                    >
+                                      <rect
+                                        width="18"
+                                        height="11"
+                                        x="3"
+                                        y="11"
+                                        rx="2"
+                                        ry="2"
+                                      ></rect>
+                                      <path
+                                        d="M7 11V7a5 5 0 0 1 9.9-1"
+                                      ></path></svg
+                                    >Unlock Anytime
+                                  </div>
+                                  <div class="h-[34px] w-px bg-white/20"></div>
+                                  <div
+                                    class="flex flex-row items-center justify-start gap-2 text-brand-stone whitespace-nowrap text-sm"
+                                  >
+                                    <svg
+                                      width="16"
+                                      height="16"
+                                      viewBox="0 0 22 25"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      class="shrink-0 text-brand-orange size-6"
+                                    >
+                                      <g clip-path="url(#clip0_4171_3394)">
+                                        <path
+                                          d="M10.135 24.117C10.135 22.2241 9.92285 20.6809 9.51892 19.5275C9.15171 18.4867 8.61721 17.7633 7.93175 17.3735C7.24629 16.9837 6.3405 16.8953 5.24295 17.1042C4.02708 17.3373 2.57047 17.9361 0.905786 18.8845L0.0163205 17.3775C1.68101 16.4291 2.93361 15.4807 3.74147 14.5563C4.47181 13.7245 4.8431 12.9046 4.83902 12.125C4.83902 11.3454 4.46365 10.5295 3.73331 9.69766C2.92137 8.77737 1.66469 7.83296 0 6.88855L0.885386 5.3775C2.55007 6.32191 4.01076 6.91669 5.22663 7.14575C6.32418 7.35071 7.22997 7.25828 7.91135 6.86846C8.59681 6.47864 9.12723 5.75125 9.49036 4.71039C9.89429 3.55701 10.0983 2.01381 10.0942 0.120972H11.865C11.865 2.00979 12.0772 3.55299 12.4811 4.70637C12.8483 5.74723 13.3828 6.4706 14.0682 6.86042C14.7537 7.25024 15.6595 7.33865 16.757 7.12968C17.9729 6.89659 19.4295 6.2978 21.0942 5.34937L21.9837 6.86042C20.319 7.80885 19.0664 8.75727 18.2585 9.68159C17.5282 10.5135 17.1569 11.3333 17.161 12.1129C17.161 12.8926 17.5364 13.7084 18.2667 14.5403C19.0786 15.4606 20.3353 16.405 22 17.3494L21.1146 18.8604C19.4499 17.916 17.9892 17.3212 16.7734 17.0922C15.6758 16.8872 14.77 16.9796 14.0886 17.3695C13.4032 17.7593 12.8728 18.4867 12.5096 19.5275C12.1057 20.6809 11.9017 22.2241 11.9058 24.117H10.135ZM7.82975 13.9616C8.51521 13.9616 9.12723 14.1143 9.65764 14.4157C10.2044 14.7251 10.6573 15.1873 11.0041 15.7981C11.3509 15.1873 11.7997 14.7251 12.3464 14.4117C12.8932 14.0982 13.5256 13.9455 14.2355 13.9535C13.8724 13.3547 13.6888 12.7399 13.6888 12.117C13.6888 11.494 13.8683 10.8792 14.2315 10.2764C14.2111 10.2764 14.1907 10.2764 14.1703 10.2764C13.4848 10.2764 12.8728 10.1237 12.3424 9.82224C11.7956 9.5128 11.3427 9.05064 10.9959 8.43979C10.6491 9.05064 10.2003 9.5128 9.65356 9.82626C9.10682 10.1397 8.47441 10.2924 7.76447 10.2844C8.1276 10.8832 8.3112 11.4981 8.3112 12.121C8.3112 12.7439 8.13168 13.3587 7.76855 13.9616C7.78895 13.9616 7.80935 13.9616 7.82975 13.9616Z"
+                                          fill="currentColor"
+                                        ></path>
+                                      </g>
+                                      <defs>
+                                        <clippath id="clip0_4171_3394">
+                                          <rect
+                                            width="22"
+                                            height="24"
+                                            fill="white"
+                                            transform="translate(0 0.116943)"
+                                          ></rect>
+                                        </clippath>
+                                      </defs></svg
+                                    >Lock and start earning flares<button
+                                      data-state="closed"
+                                      data-slot="tooltip-trigger"
+                                      class="cursor-pointer"
+                                    >
+                                      <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-info size-[18px]"
+                                        aria-hidden="true"
+                                      >
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M12 16v-4"></path>
+                                        <path d="M12 8h.01"></path>
+                                      </svg>
+                                    </button>
+                                  </div>
+                                  <div class="h-[34px] w-px bg-white/20"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="@2xl:block hidden h-[2px] bg-[linear-gradient(94deg,_#ED863B_43.76%,_#FF9E36_61.64%,_#E09BC5_79.72%,_#A5C5DE_96.41%)]"
+                    ></div>
+                    <div
+                      class="@2xl:flex hidden flex-row items-start gap-2 border-b border-black/10 bg-white py-3 pl-[70px] pr-[50px]"
+                    >
+                      <button
+                        class="flex cursor-pointer flex-col items-center transition-opacity"
+                      >
+                        <div class="flex size-12 items-center justify-center">
+                          <div
+                            class="bg-brand-main-purple flex h-8 w-8 items-center justify-center rounded-full"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check h-4 w-4 text-white"
+                              aria-hidden="true"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <p
+                          class="text-sm font-semibold mt-1 text-brand-main-purple"
+                        >
+                          Lock
+                        </p>
+                      </button>
+                      <div
+                        class="h-0.5 w-full translate-y-6 transform rounded-full"
+                        style="
+                          background: linear-gradient(
+                            to right,
+                            rgb(237, 134, 59) 45%,
+                            rgb(255, 158, 54) 64%,
+                            rgb(224, 155, 197) 83%,
+                            rgb(165, 197, 222) 100%
+                          );
+                        "
+                      ></div>
+                      <button class="flex cursor-pointer flex-col items-center">
+                        <div class="flex size-12 items-center justify-center">
+                          <div
+                            class="bg-brand-main-purple flex h-8 w-8 items-center justify-center rounded-full"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-check h-4 w-4 text-white"
+                              aria-hidden="true"
+                            >
+                              <path d="M20 6 9 17l-5-5"></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <p
+                          class="text-sm font-semibold mt-1 text-brand-main-purple"
+                        >
+                          Unlock
+                        </p>
+                      </button>
+                      <div
+                        class="h-0.5 w-full translate-y-6 transform rounded-full"
+                        style="
+                          background: linear-gradient(
+                            to right,
+                            rgb(237, 134, 59) 45%,
+                            rgb(255, 158, 54) 64%,
+                            rgb(224, 155, 197) 83%,
+                            rgb(165, 197, 222) 100%
+                          );
+                        "
+                      ></div>
+                      <button class="flex cursor-pointer flex-col items-center">
+                        <div class="relative size-12">
+                          <svg
+                            width="48"
+                            height="48"
+                            viewBox="0 0 48 48"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M8 24C8 15.1634 15.1634 8 24 8V8C32.8366 8 40 15.1634 40 24V24C40 32.8366 32.8366 40 24 40V40C15.1634 40 8 32.8366 8 24V24Z"
+                              fill="#EB6237"
+                            ></path>
+                            <circle
+                              cx="24"
+                              cy="24"
+                              r="19.5"
+                              stroke="#EB6237"
+                              stroke-opacity="0.8"
+                            ></circle>
+                            <circle
+                              cx="24"
+                              cy="24"
+                              r="23.75"
+                              stroke="#EB6237"
+                              stroke-opacity="0.4"
+                              stroke-width="0.5"
+                            ></circle>
+                          </svg>
+                          <div
+                            class="pointer-events-none absolute inset-0 flex items-center justify-center"
+                          >
+                            <span class="text-xs font-normal text-white"
+                              >3</span
+                            >
+                          </div>
+                        </div>
+                        <p
+                          class="text-sm font-semibold mt-1 -translate-x-5 transform text-right text-brand-orange"
+                        >
+                          Withdraw
+                        </p>
+                      </button>
+                    </div>
+                    <div class="flex flex-col overflow-hidden">
+                      <div
+                        class="flex items-start justify-start @2xl:pl-[75px] @2xl:pr-[70px] @2xl:flex-row @2xl:items-center @2xl:pt-6 @2xl:gap-6 flex-col px-6 pb-6"
+                      >
+                        <div
+                          class="@2xl:w-auto w-full flex-none"
+                          style="opacity: 1; transform: none"
+                        >
+                          <div class="@2xl:hidden relative mb-3 w-full">
+                            <button
+                              class="h-14! ring-0! border-black/10! text-brand-purple flex w-full cursor-pointer items-center gap-2 rounded-lg border bg-white px-5 text-left font-medium capitalize shadow-none"
+                            >
+                              <div>03.</div>
+                              <div class="flex-grow">withdraw</div>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-down text-brand-orange size-5 flex-none"
+                                aria-hidden="true"
+                              >
+                                <path d="M12 5v14"></path>
+                                <path d="m19 12-7 7-7-7"></path>
+                              </svg>
+                            </button>
+                          </div>
+                          <div
+                            class="flex-row items-center justify-start @2xl:flex hidden gap-2"
+                          >
+                            <p
+                              class="text-accent-foreground font-serif text-[28px] font-normal italic"
+                            >
+                              03.
+                            </p>
+                            <p
+                              class="text-accent-foreground text-2xl font-normal pr-8"
+                            >
+                              Withdraw
+                            </p>
+                            <div class="bg-brand-orange h-[42px] w-px"></div>
+                          </div>
+                        </div>
+                        <div class="flex flex-row items-center">
+                          <div style="opacity: 1; transform: none">
+                            <p
+                              class="text-sm font-normal text-muted-foreground"
+                            >
+                              Your USX will be available to withdraw when the
+                              cooldown period is complete.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        data-orientation="horizontal"
+                        role="separator"
+                        class="bg-brand-ui-grey/20 @2xl:mx-0 mx-6 h-px"
+                      ></div>
+                      <div style="opacity: 1; transform: none">
+                        <div
+                          class="@2xl:px-[75px] relative flex flex-col gap-6 px-5 pb-12 pt-8"
+                        >
+                          <div class="space-y-3">
+                            <div
+                              class="flex w-full flex-row flex-wrap items-center justify-between gap-4"
+                            >
+                              <p
+                                class="text-accent-foreground text-base font-medium"
+                              >
+                                Withdrawal Available
+                              </p>
+                              <div class="flex flex-row gap-2">
+                                <div
+                                  class="text-brand-ui-grey flex flex-row items-center gap-2"
+                                >
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-wallet size-5"
+                                    aria-hidden="true"
+                                  >
+                                    <path
+                                      d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"
+                                    ></path>
+                                    <path
+                                      d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"
+                                    ></path>
+                                  </svg>
+                                  <p
+                                    class="font-normal text-brand-ui-grey text-sm"
+                                  >
+                                    USX
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div
+                                class="relative overflow-clip rounded-lg border border-black/10"
+                              >
+                                <div
+                                  class="absolute right-4 top-1/2 flex -translate-y-1/2 transform items-center gap-2"
+                                >
+                                  <img
+                                    alt="solstice logo"
+                                    loading="lazy"
+                                    width="26"
+                                    height="26"
+                                    decoding="async"
+                                    data-nimg="1"
+                                    class="size-6 rounded-full"
+                                    src="images/72.svg"
+                                    style="color: transparent"
+                                  />
+                                </div>
+                                <div class="w-full bg-[#f8f6f7] px-6 py-3">
+                                  <div class="h-6"></div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="space-y-2">
+                              <div
+                                class="text-brand-ui-grey flex flex-row items-center justify-end gap-2 text-right text-[10px]"
+                              >
+                                Network Fee: 0 SOL
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            data-orientation="horizontal"
+                            role="separator"
+                            class="bg-brand-ui-grey/20 h-px"
+                          ></div>
+                          <div class="relative z-30">
+                            <button
+                              data-slot="button"
+                              class="whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary cursor-pointer text-primary-foreground hover:bg-[#E93E32] px-6 group flex h-[56px] w-full flex-row items-center justify-center gap-4 rounded-full text-base"
+                             onclick="openModal()"
+>
+                              <span class="flex items-center gap-4"
+                                >Connect Your Wallet<svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  class="lucide lucide-wallet size-6 text-white"
+                                  aria-hidden="true"
+                                >
+                                  <path
+                                    d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"
+                                  ></path>
+                                  <path
+                                    d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"
+                                  ></path></svg
+                              ></span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="relative flex justify-center border-t border-black/20 py-4 bg-white"
+                    >
+                      <img
+                        alt
+                        class="pointer-events-none absolute inset-0 size-full select-none object-cover opacity-0"
+                        src="images/73.svg"
+                      /><button
+                        class="group relative z-10 flex cursor-pointer flex-row items-center justify-center gap-[18px]"
+                      >
+                        <p
+                          class="text-sm font-normal text-center text-brand-ui-grey"
+                        >
+                          Learn more
+                        </p>
+                        <div
+                          class="border-brand-orange group-hover:bg-brand-orange flex justify-center rounded-md border bg-transparent px-1 py-1 transition-colors duration-300"
+                        >
+                          <div style="transform: none">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-arrow-down text-brand-orange size-6 stroke-1 transition-colors duration-300 group-hover:text-white"
+                              aria-hidden="true"
+                            >
+                              <path d="M12 5v14"></path>
+                              <path d="m19 12-7 7-7-7"></path>
+                            </svg>
+                          </div>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main>
+            <footer
+              class="bg-brand-purple @6xl:sticky relative bottom-0 z-30 w-full overflow-clip"
+            >
+              <img
+                alt
+                loading="lazy"
+                width="266"
+                height="263"
+                decoding="async"
+                data-nimg="1"
+                class="@6xl:hidden absolute left-0 top-0"
+                style="color: transparent"
+                src="images/74.svg"
+              /><img
+                alt
+                loading="lazy"
+                width="810"
+                height="73"
+                decoding="async"
+                data-nimg="1"
+                class="@6xl:block absolute left-0 top-0 hidden h-full"
+                style="color: transparent"
+                src="images/75.svg"
+              />
+              <div
+                class="@6xl:flex-row @6xl:items-center @6xl:py-[23px] @6lx:px-10 relative z-10 flex w-full flex-col justify-between gap-8 px-5 py-12"
+              >
+                <div
+                  class="@6xl:items-center @6xl:flex-row flex flex-grow flex-col flex-wrap gap-8"
+                >
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-xs text-white/60 transition-colors hover:text-white"
+                    href="https://solstice.finance/"
+                    >solstice.finance</a
+                  >
+                  <div class="flex items-center gap-8">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-white/60 transition-colors hover:text-white"
+                      href="https://t.me/Solstice_TG"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26"
+                        height="23"
+                        class="fill-current"
+                      >
+                        <path
+                          d="M24.576.05.935 9.685c-.584.238-.579 1.11.007 1.342l5.76 2.272 2.23 7.577c.143.485.704.665 1.077.343l3.211-2.766a.917.917 0 0 1 1.168-.035l5.792 4.443c.399.307.964.076 1.064-.433L25.485.865c.11-.556-.408-1.02-.909-.816Zm-4.509 5.042-9.291 9.126a2.076 2.076 0 0 0-.597 1.218l-.317 2.478a.288.288 0 0 1-.568.044l-1.218-4.52a1.23 1.23 0 0 1 .496-1.347L19.83 4.765c.202-.132.41.158.236.328h.001Z"
+                        ></path></svg></a
+                    ><a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-white/60 transition-colors hover:text-white"
+                      href="https://www.linkedin.com/company/solsticelabs/"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        class="fill-current"
+                      >
+                        <path
+                          d="M18.917 1.5H6.083A4.584 4.584 0 0 0 1.5 6.083v12.834A4.584 4.584 0 0 0 6.083 23.5h12.834a4.583 4.583 0 0 0 4.583-4.583V6.083A4.583 4.583 0 0 0 18.917 1.5ZM8.833 18.917h-2.75V8.833h2.75v10.084ZM7.458 7.67a1.611 1.611 0 0 1-1.604-1.617c0-.893.719-1.617 1.604-1.617.886 0 1.604.724 1.604 1.617a1.61 1.61 0 0 1-1.604 1.617Zm12.375 11.246h-2.75V13.78c0-3.088-3.666-2.854-3.666 0v5.137h-2.75V8.833h2.75v1.618c1.28-2.37 6.416-2.545 6.416 2.27v6.196Z"
+                        ></path></svg></a
+                    ><a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-white/60 transition-colors hover:text-white"
+                      href="https://x.com/solsticefi"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        class="fill-current"
+                      >
+                        <path
+                          d="M18.881 2.5h3.373l-7.404 8.487L23.5 22.5h-6.788l-5.315-6.996L5.312 22.5H1.94l7.844-9.078L1.5 2.5h6.957l4.802 6.391L18.88 2.5Zm-1.18 18.007h1.87L7.475 4.42H5.466l12.235 16.088Z"
+                        ></path></svg
+                    ></a>
+                  </div>
+                </div>
+                <div
+                  class="@6xl:hidden h-px w-full bg-[linear-gradient(90deg,rgba(147,150,167,0)_0%,#9396A7_50%,rgba(147,150,167,0)_100%)] opacity-40"
+                ></div>
+                <div
+                  class="@6xl:absolute @6xl:left-1/2 @6xl:top-1/2 @6xl:-translate-x-1/2 @6xl:-translate-y-1/2 flex shrink-0 flex-grow transform flex-row items-center gap-2.5"
+                >
+                  <p class="text-xs font-normal text-white">Powered by</p>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://solana.com/"
+                    ><img
+                      alt="Solana"
+                      loading="lazy"
+                      width="95"
+                      height="14"
+                      decoding="async"
+                      data-nimg="1"
+                      class="h-[14px] w-auto"
+                      style="color: transparent"
+                      src="images/76.svg"
+                  /></a>
+                </div>
+                <div class="flex flex-row flex-wrap items-center gap-6">
+                  <a
+                    target="_blank"
+                    class="text-xs text-white/60 transition-colors hover:text-white hover:underline"
+                    href="https://solstice.finance/terms"
+                    >Terms &amp; Conditions</a
+                  ><a
+                    target="_blank"
+                    class="text-xs text-white/60 transition-colors hover:text-white hover:underline"
+                    href="https://solstice.finance/privacy"
+                    >Privacy Policy</a
+                  >
+                  <p class="text-xs font-normal text-white/60">
+                    ©
+                    <!-- -->2025<!-- -->
+                    Solstice Labs.
+                  </p>
+                </div>
+              </div>
+            </footer>
+            <section
+              aria-label="Notifications alt+T"
+              tabindex="-1"
+              aria-live="polite"
+              aria-relevant="additions text"
+              aria-atomic="false"
+            ></section>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script async src="scripts/87.js"></script>
+    <script>
+      (self.__next_f = self.__next_f || []).push([0]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '1:"$Sreact.fragment"\n2:I[33876,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],""]\n3:I[59374,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],"QueryProvider"]\n4:I[75677,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],"default"]\n5:I[58424,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],"default"]\n6:I[72954,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],"SidebarProvider"]\n7:I[67253,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055"',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        ',"static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],"default"]\n8:I[87647,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],"SidebarWrapper"]\n9:I[72954,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        'chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],"SidebarInset"]\na:I[86358,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],"Transition"]\nb:I[70666,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],"GeoHeader"]\nc:I[37632,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],"Header"]\nd:I[77032,[],""]\ne:I[6942,[],""]\nf:I[27302,["7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","4345","static/chunks/app/not-found-b5170ad7a0645043.js"],"Image"]\n10:I[31065,["7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","4345","static/chunks/app/not-found-b5170ad7a0645043.js"],""]\n11:I[51242,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],"Footer"]\n12:I[41104,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","stat',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        'ic/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","8799","static/chunks/8799-58651966609b83f3.js","2548","static/chunks/2548-e19941233319d4e8.js","3679","static/chunks/3679-3b8966b0973cae68.js","8808","static/chunks/8808-5018313fa024296a.js","7796","static/chunks/7796-8f65f43a569cc51a.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","3277","static/chunks/3277-a0cdccb6c1d823ea.js","6351","static/chunks/6351-debcb1234033547d.js","2977","static/chunks/2977-6e5bb2505d75cdac.js","7177","static/chunks/app/layout-3a7741cd95a3f24a.js"],"Toaster"]\n13:I[11893,[],"ClientPageRoot"]\n14:I[96058,["397","static/chunks/ec71197a-c61748e5c1b82fe5.js","7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","6170","static/chunks/6170-90572a09067ed6bc.js","2444","static/chunks/2444-ce1ae2a3b63832cc.js","3004","static/chunks/3004-d9ce2bb4cc2ccea4.js","8974","static/chunks/app/page-55c21a63df954e16.js"],"default"]\n17:I[40872,[],"OutletBoundary"]\n1a:I[58192,[],"AsyncMetadataOutlet"]\n1c:I[40872,[],"ViewportBoundary"]\n1e:I[40872,[],"MetadataBoundary"]\n20:I[84043,["7055","static/chunks/7055-042ef75219cf6b64.js","7302","static/chunks/7302-03ccae1c2e349b9d.js","1065","static/chunks/1065-2c6e920f707ee19f.js","4219","static/chunks/app/global-error-7a3a29367d1fb10e.js"],"default"]\n:HL["/_next/static/media/12ee21e46dd493d0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/media/3359c9acc30ef440-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/media/3988c35203e0830a-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/media/83ad8d172e8a3db5-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/media/91c3caac73720166-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/media/94628ed0211a8d6c-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/media/a17e6abc638602a7-s.p.woff2","',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        'font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/media/a6b5dea332871235-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/media/aff755c8b4bb3089-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/media/c8cad4642119b6f5-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/css/8c75ea3b59963028.css","style"]\n:HL["/_next/static/css/19b744b2645f8b2c.css","style"]\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '0:{"P":null,"b":"QffiPObQ1FnpgbwRa14tN","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8c75ea3b59963028.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/19b744b2645f8b2c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-RJX3YY6XHX","strategy":"afterInteractive"}],["$","$L2",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\\n            window.dataLayer = window.dataLayer || [];\\n            function gtag(){dataLayer.push(arguments);}\\n            gtag(\'js\', new Date());\\n            gtag(\'config\', \'G-RJX3YY6XHX\');\\n          "}]]}],["$","body",null,{"className":"__variable_e380c1 antialiased","children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":[["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{"className":"relative flex min-h-screen flex-col","children":["$","$La",null,{"children":["$","div",null,{"className":"@container relative z-10 flex h-full flex-1 flex-col","children":[["$","$Lb",null,{}],["$","$Lc",null,{}],["$","main",null,{"className":"bg-brand-app-widget-bg flex-1","children":["$","$Ld",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"bg-brand-card-purple flex h-full flex-col items-center justify-center px-5","children":["$","div",null,{"className":"bg-brand-purple lg:py-18 relative flex flex-col items-center gap-6 rounded-2xl px-8 py-10 sm:gap-8 sm:px-16 sm:py-12 md:px-20 md:py-14 lg:px-32 xl:px-40 xl:py-20 2xl:px-48","children":[["$","$Lf",null,{"src":"/rewards_onboarding_bg.svg","width":"509","height":"485","alt":"","className":"pointer-events-none absolute right-[-10px] top-[10px] z-0 h-auto w-[120px] opacity-25 sm:right-[-20px] sm:top-[-40px] sm:w-[179px] sm:opacity-40 md:right-[-10px] md:top-[-50px] md:w-[220px] md:opacity-45 lg:right-0 lg:top-[-70px] lg:w-[269px] lg:opacity-50 xl:right-8 xl:top-[-90px] xl:w-[294px] xl:opacity-60 2xl:right-12 2xl:top-[-100px] 2xl:w-[336px] 2xl:opacity-70"}],["$","h1",null,{"className":"bg-brand-text-gradient relative z-10 text-[80px] font-normal leading-none sm:text-[120px] md:text-[140px] lg:text-[180px] xl:text-[220px] 2xl:text-[240px]","children":"404"}],["$","div",null,{"className":"bg-brand-orange relative z-10 h-[2px] w-full max-w-[80px] sm:max-w-[100px]"}],["$","p",null,{"className":"relative z-10 max-w-[500px] text-center text-base text-white/80 sm:text-lg","children":"Sorry, the page you are looking for doesn\'t exist. You may have mistyped the address or it may have moved."}],["$","$L10",null,{"href":"/","className":"bg-brand-orange relative z-10 inline-flex h-12 items-center justify-center gap-2 rounded-full px-8 text-base font-semibold text-white transition-all hover:bg-[#E93E32]","children":["Take me to the dashboard",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right size-5","aria-hidden":"true","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L11",null,{}],["$","$L12",null,{}]]}]}]}]]}]}]}]}]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L13",null,{"Component":"$14","searchParams":{},"params":{},"promises":["$@15","$@16"]}],null,["$","$L17",null,{"children":["$L18","$L19",["$","$L1a",null,{"promise":"$@1b"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","HXcyUFCR0opxHB7ybrVU1v",{"children":[["$","$L1c",null,{"children":"$L1d"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$L1e",null,{"children":"$L1f"}]]}],false]],"m":"$undefined","G":["$20",[]],"s":false,"S":true}\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '21:"$Sreact.suspense"\n22:I[58192,[],"AsyncMetadata"]\n15:{}\n16:{}\n1f:["$","div",null,{"hidden":true,"children":["$","$21",null,{"fallback":null,"children":["$","$L22",null,{"promise":"$@23"}]}]}]\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([1, "19:null\n"]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '1d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]\n18:null\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '1b:{"metadata":[["$","title","0",{"children":"Solstice"}],["$","meta","1",{"name":"description","content":"Wall-street level gains on Solana, for everyone."}],["$","link","2",{"rel":"manifest","href":"/metadata/site.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"icon","href":"/metadata/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","4",{"rel":"icon","href":"/metadata/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","5",{"rel":"icon","href":"/metadata/favicon.ico","sizes":"any","type":"image/x-icon"}],["$","link","6",{"rel":"apple-touch-icon","href":"/metadata/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","link","7",{"rel":"icon","href":"/metadata/android-chrome-192x192.png","sizes":"192x192","type":"image/png"}],["$","link","8",{"rel":"icon","href":"/metadata/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}]],"error":null,"digest":"$undefined"}\n23:{"metadata":"$1b:metadata","error":null,"digest":"$undefined"}\n',
+      ]);
+    </script>
+    <script
+      defer
+      data-cf-beacon='{"version":"2024.11.0","token":"ab5ea77f091d4ddc92adf7fb25b2bff3","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+      crossorigin="anonymous"
+      src="scripts/88"
+    ></script>
+    <script data-nscript="afterInteractive" src="scripts/89"></script>
+    <script id="google-analytics" data-nscript="afterInteractive">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-RJX3YY6XHX");
+    </script>
+    <next-route-announcer style="position: absolute"
+      ><template shadowrootmode="open"
+        ><div
+          aria-live="assertive"
+          id="__next-route-announcer__"
+          role="alert"
+          style="
+            position: absolute;
+            border: 0px;
+            height: 1px;
+            margin: -1px;
+            padding: 0px;
+            width: 1px;
+            clip: rect(0px, 0px, 0px, 0px);
+            overflow: hidden;
+            white-space: nowrap;
+            overflow-wrap: normal;
+          "
+        ></div></template
+    ></next-route-announcer>
+    <script data-template-shadow-root>
+      (() => {
+        document.currentScript.remove();
+        processNode(document);
+        function processNode(node) {
+          node
+            .querySelectorAll("template[shadowrootmode]")
+            .forEach((element) => {
+              let shadowRoot = element.parentElement.shadowRoot;
+              if (!shadowRoot) {
+                try {
+                  shadowRoot = element.parentElement.attachShadow({
+                    mode: element.getAttribute("shadowrootmode"),
+                  });
+                  shadowRoot.innerHTML = element.innerHTML;
+                  element.remove();
+                } catch (error) {}
+                if (shadowRoot) {
+                  processNode(shadowRoot);
+                }
+              }
+            });
+        }
+      })();
+    </script>
+  </body>
+</html>
